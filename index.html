@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CLUTCH: periféricos gamer para elevar tu juego. Mouses, teclados, auriculares y mousepads.">
+  <title>CLUTCH | Elevá tu juego</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Encabezado: marca y navegación semántica -->
+  <header class="site-header" id="inicio">
+    <a class="brand" href="#inicio" aria-label="CLUTCH, inicio">
+      <span class="brand-symbol" aria-hidden="true"><i class="fa-solid fa-bolt"></i></span>
+      <span>CLUTCH</span>
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a class="active" href="#inicio">Inicio</a>
+      <a href="#productos">Productos</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="header-cta" href="#productos"><i class="fa-solid fa-bag-shopping" aria-hidden="true"></i> Ver tienda</a>
+  </header>
+
+  <main>
+    <!-- Sección 1: portada / hero con imagen amplia -->
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-bg" src="https://images.unsplash.com/photo-1636487658581-a7d60d465e35?auto=format&fit=crop&w=1800&q=90" alt="Fotografía real de un setup gamer con monitores, teclado y periféricos iluminados">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="live-dot"></span> PERIFÉRICOS GAMER</p>
+        <h1 id="hero-title">ELEVÁ<br><span>TU JUEGO.</span></h1>
+        <p class="hero-text">Equipos de alto rendimiento para gamers que buscan la victoria. Tu próximo clutch empieza acá.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#productos">Explorar productos <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          <a class="button button-outline" href="#marca">Conocé CLUTCH</a>
+        </div>
+        <div class="hero-points"><span><i class="fa-solid fa-gamepad" aria-hidden="true"></i> Rendimiento</span><span><i class="fa-regular fa-gem" aria-hidden="true"></i> Diseño premium</span><span><i class="fa-solid fa-shield-halved" aria-hidden="true"></i> Calidad seleccionada</span></div>
+      </div>
+      <div class="hero-index" aria-hidden="true">01 <span></span> GEAR UP</div>
+    </section>
+
+    <!-- Presentación breve de la marca -->
+    <section class="brand-intro section-wrap" id="marca">
+      <div><p class="eyebrow">NO ES SOLO JUGAR</p><h2>EL EQUIPO TAMBIÉN<br>HACE LA <span>DIFERENCIA.</span></h2></div>
+      <p>En CLUTCH creemos que cada detalle cuenta: precisión, comodidad y velocidad para que puedas concentrarte en lo importante. Elegí tu próximo upgrade.</p>
+    </section>
+
+    <!-- Categorías -->
+    <section class="categories section-wrap" aria-labelledby="categories-title">
+      <div class="section-title"><div><p class="eyebrow">ENCONTRÁ TU EQUIPO</p><h2 id="categories-title">NUESTRAS <span>CATEGORÍAS</span></h2></div><p>Todo lo que necesitás para completar tu setup.</p></div>
+      <div class="category-grid">
+        <a class="category-card" href="#productos"><img src="https://images.unsplash.com/photo-1636036758527-266adfee3fcf?auto=format&fit=crop&w=900&q=85" alt="Mouse gamer negro"><span>Mouses <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span></a>
+        <a class="category-card" href="#productos"><img src="https://images.unsplash.com/photo-1771521971801-b24e291166d1?auto=format&fit=crop&w=900&q=85" alt="Teclado mecánico gamer"><span>Teclados <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span></a>
+        <a class="category-card" href="#productos"><img src="https://images.unsplash.com/photo-1679429973860-d430a100db8c?auto=format&fit=crop&w=900&q=85" alt="Auriculares para gaming"><span>Auriculares <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span></a>
+        <a class="category-card" href="#productos"><img src="https://images.unsplash.com/photo-1629429408209-1f912961dbd8?auto=format&fit=crop&w=900&q=85" alt="Mousepad negro para setup gamer"><span>Mousepads <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></span></a>
+      </div>
+    </section>
+
+    <!-- Sección 2: tarjetas de productos usando Flexbox -->
+    <section class="products-section" id="productos" aria-labelledby="products-title">
+      <div class="section-wrap">
+        <div class="section-title"><div><p class="eyebrow">SELECCIÓN CLUTCH</p><h2 id="products-title">PRODUCTOS <span>DESTACADOS</span></h2></div><span class="demo-label">PRECIOS DE EJEMPLO</span></div>
+        <div class="product-grid">
+          <article class="product-card"><div class="product-image"><span class="product-badge">TOP VENTAS</span><img src="https://images.unsplash.com/photo-1636036758527-266adfee3fcf?auto=format&fit=crop&w=900&q=85" alt="Mouse gamer real con iluminación RGB"></div><div class="product-info"><p class="product-type">MOUSE INALÁMBRICO</p><h3>SteelSeries Rival 650</h3><p class="product-description">Precisión ultraligera con sensor de alto rendimiento.</p><div class="product-bottom"><strong>$49.990</strong><a class="product-button" href="#contacto" aria-label="Consultar por CLUTCH Fury X">Consultar <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div></div></article>
+          <article class="product-card"><div class="product-image"><span class="product-badge badge-new">NUEVO</span><img src="https://images.unsplash.com/photo-1771521971801-b24e291166d1?auto=format&fit=crop&w=900&q=85" alt="Teclado mecánico real con iluminación RGB"></div><div class="product-info"><p class="product-type">TECLADO MECÁNICO</p><h3> Gamakay NS75</h3><p class="product-description">Formato compacto, respuesta rápida y RGB personalizable.</p><div class="product-bottom"><strong>$89.990</strong><a class="product-button" href="#contacto" aria-label="Consultar por CLUTCH Core TKL">Consultar <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div></div></article>
+          <article class="product-card"><div class="product-image"><img src="https://images.unsplash.com/photo-1679429973860-d430a100db8c?auto=format&fit=crop&w=900&q=85" alt="Auriculares gamer reales en fondo oscuro"></div><div class="product-info"><p class="product-type">AUDIO GAMER</p><h3>Auriculares inalámbricos Razer MANO’WAR</h3><p class="product-description">Sonido envolvente y comodidad para sesiones largas.</p><div class="product-bottom"><strong>$69.990</strong><a class="product-button" href="#contacto" aria-label="Consultar por CLUTCH Vibe">Consultar <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div></div></article>
+          <article class="product-card"><div class="product-image"><span class="product-badge">RECOMENDADO</span><img src="https://images.unsplash.com/photo-1629429408209-1f912961dbd8?auto=format&fit=crop&w=900&q=85" alt="Mouse gamer con iluminación RGB sobre una superficie oscura"></div><div class="product-info"><p class="product-type">SUPERFICIE XL</p><h3>Mouse Pad Redragon P030 Flick XL</h3><p class="product-description">Superficie amplia para movimientos fluidos y precisos.</p><div class="product-bottom"><strong>$29.990</strong><a class="product-button" href="#contacto" aria-label="Consultar por CLUTCH XL Pro">Consultar <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección 3: galería con al menos ocho imágenes, Flexbox y flex-wrap -->
+    <section class="gallery-section section-wrap" id="galeria" aria-labelledby="gallery-title">
+      <div class="section-title"><div><p class="eyebrow">INSPIRATE Y ARMÁ EL TUYO</p><h2 id="gallery-title">SETUPS <span>CLUTCH</span></h2></div><p>Tu espacio. Tu estilo. Tu partida.</p></div>
+      <div class="gallery">
+        <figure class="gallery-item gallery-wide"><img src="https://images.unsplash.com/photo-1593640408182-31c70c8268f5?auto=format&fit=crop&w=1000&q=85" alt="Setup gamer con monitor y periféricos"><figcaption>01 / Setup completo</figcaption></figure>
+        <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?auto=format&fit=crop&w=800&q=85" alt="Control y accesorios gaming"><figcaption>02 / Game on</figcaption></figure>
+        <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1629429408209-1f912961dbd8?auto=format&fit=crop&w=900&q=85" alt="Superficie de mousepad para escritorio"><figcaption>03 / Precisión</figcaption></figure>
+        <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1771521971801-b24e291166d1?auto=format&fit=crop&w=900&q=85" alt="Teclado mecánico iluminado"><figcaption>04 / Control total</figcaption></figure>
+        <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1636036758527-266adfee3fcf?auto=format&fit=crop&w=900&q=85" alt="Mouse de alto rendimiento"><figcaption>05 / Cada milisegundo</figcaption></figure>
+        <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1679429973860-d430a100db8c?auto=format&fit=crop&w=900&q=85" alt="Auriculares de audio"><figcaption>06 / Escuchá todo</figcaption></figure>
+        <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1547394765-185e1e68f34e?auto=format&fit=crop&w=800&q=85" alt="Escritorio de computadora con monitor"><figcaption>07 / Tu espacio</figcaption></figure>
+        <figure class="gallery-item"><img src="https://images.unsplash.com/photo-1593640495253-23196b27a87f?auto=format&fit=crop&w=800&q=85" alt="Equipo informático en un escritorio moderno"><figcaption>08 / Ready to play</figcaption></figure>
+      </div>
+    </section>
+
+    <!-- Sección 4: formulario con texto, email, teléfono, select, radio, checkbox y textarea -->
+    <section class="contact-section" id="contacto" aria-labelledby="contact-title">
+      <div class="contact-layout section-wrap">
+        <div class="contact-copy"><p class="eyebrow">¿TENÉS UNA DUDA?</p><h2 id="contact-title">HABLEMOS<br>DE TU <span>SETUP.</span></h2><p>¿Querés consultar por un producto o necesitás una recomendación? Escribinos y contanos qué estás buscando.</p><div class="contact-perk"><i class="fa-solid fa-headset" aria-hidden="true"></i><div><strong>Te ayudamos a elegir</strong><span>Encontrá el equipo ideal para vos.</span></div></div><div class="contact-perk"><i class="fa-solid fa-bolt" aria-hidden="true"></i><div><strong>Subí de nivel</strong><span>Prepará tu próximo upgrade.</span></div></div></div>
+        <form class="contact-form" action="#contacto" method="get">
+          <div class="form-heading"><h3>CONTACTO CLUTCH</h3><p>Completá tus datos y tu consulta.</p></div>
+          <div class="form-grid">
+            <div class="form-field"><label for="nombre">Nombre y apellido *</label><input id="nombre" name="nombre" type="text" placeholder="Tu nombre" autocomplete="name" required></div>
+            <div class="form-field"><label for="email">Correo electrónico *</label><input id="email" name="email" type="email" placeholder="nombre@correo.com" autocomplete="email" required></div>
+            <div class="form-field"><label for="telefono">Teléfono</label><input id="telefono" name="telefono" type="tel" placeholder="+54 9..." autocomplete="tel"></div>
+            <div class="form-field"><label for="motivo">¿Qué buscás? *</label><select id="motivo" name="motivo" required><option value="">Elegí una categoría</option><option value="mouse">Mouse</option><option value="teclado">Teclado</option><option value="auriculares">Auriculares</option><option value="mousepad">Mousepad</option><option value="otro">Otro / asesoramiento</option></select></div>
+            <fieldset class="form-field form-choice"><legend>¿Para qué lo usás principalmente?</legend><label class="choice-label"><input type="radio" name="uso" value="competitivo" required> Competitivo</label><label class="choice-label"><input type="radio" name="uso" value="casual"> Casual</label><label class="choice-label"><input type="radio" name="uso" value="trabajo"> Trabajo / estudio</label></fieldset>
+            <div class="form-field form-full"><label for="mensaje">Tu mensaje *</label><textarea id="mensaje" name="mensaje" rows="4" placeholder="Contanos qué producto te interesa..." required></textarea></div>
+          </div>
+          <label class="consent"><input type="checkbox" name="novedades" value="si"> Quiero recibir novedades y ofertas de CLUTCH.</label>
+          <div class="form-buttons"><button class="button button-primary" type="submit">Enviar consulta <i class="fa-solid fa-paper-plane" aria-hidden="true"></i></button><button class="button button-reset" type="reset">Limpiar formulario</button></div>
+          <p class="form-note"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Formulario demostrativo: valida los campos, pero no envía mensajes a una tienda real.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#inicio"><span class="brand-symbol" aria-hidden="true"><i class="fa-solid fa-bolt"></i></span><span>CLUTCH</span></a>
+    <p class="footer-tagline">Elevá tu juego.</p>
+    <nav class="footer-nav" aria-label="Navegación del pie de página"><a href="#inicio">Inicio</a><a href="#productos">Productos</a><a href="#galeria">Galería</a><a href="#contacto">Contacto</a></nav>
+    <div class="social-links" aria-label="Redes sociales de ejemplo"><a href="#contacto" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#contacto" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a><a href="#contacto" aria-label="Discord"><i class="fa-brands fa-discord"></i></a></div>
+    <small>© 2026 CLUTCH.</small>
+    <a class="back-top" href="#inicio">Volver arriba ↑</a>
+  </footer>
+</body>
+</html>
