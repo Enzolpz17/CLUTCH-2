@@ -22,8 +22,5 @@
 /* CLUTCH: efecto premium para las tarjetas */
 .product-card:hover {
     box-shadow: 0 14px 34px rgba(183, 255, 42, 0.12);
-}
-/* CLUTCH: transición suave para las tarjetas */
-.product-card {
-    transition: box-shadow 0.25s ease, transform 0.25s ease;
+    transform: translateY(-3px);
 }
